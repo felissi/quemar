@@ -8,6 +8,7 @@
     "strict": true,
     "sourceMap": true,
     "esModuleInterop": true,
-    "types":["@types/jest"],
-  }
+    "types": ["@types/jest"],
+  },
+  "exclude": ["nuxt.config.ts"],
 }
