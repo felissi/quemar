@@ -5,6 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch via NPM",
+            "request": "launch",
+            "runtimeArgs": [
+                "run",
+                "dev"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+            ],
+            "type": "node",
+            "console": "integratedTerminal"
+        },
+        {
             "command": "npm run test",
             "name": "test",
             "request": "launch",
